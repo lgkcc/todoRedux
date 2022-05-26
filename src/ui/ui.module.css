@@ -1,0 +1,13 @@
+.btn{
+    border: 1px black solid;
+    padding: 5px;
+}
+.btn:first-child{
+    margin-right: 10px;
+}
+.btn:hover{
+    border: 1px red solid;
+}
+.btn:hover svg{
+    color: red;
+}

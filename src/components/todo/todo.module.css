@@ -1,0 +1,16 @@
+.todo{
+    border-bottom: 1px black solid;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.todo:last-child{
+    border-bottom: none;
+}
+.title{
+    color: black;
+}
+.title.complete{
+    color: red;
+}
+
